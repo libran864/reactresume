@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Muli", sans-serif;
+  background-color: black !important;
+}
+
+.navbar {
+  display: flex;
+  background-color: black !important;
+  width: 100%;
+  height: 80px;
+}
+
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: whitesmoke !important;
+}
+
+.navbar a {
+  font-size: 1.3rem;
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #5f6a6a;
+}
+
+.navbar a:hover {
+  color: aliceblue !important;
+}
+
+.nav-link {
+  color: #999999 !important;
+}
+
+/*
+#home */
+
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: aliceblue;
+}
+
+#header .brand-name {
+  color: #3498db;
+}
+
+#header h2 {
+  color: aliceblue;
+  font-size: 24px;
+}
+
+#header .btn-outline-primary {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.25s;
+  color: #3498db;
+  border: 2px solid #3498db;
+  text-decoration: none;
+}
+
+#header .btn-outline-primary:hover {
+  background: #3498db !important;
+  color: aliceblue;
+}
+
+.header-img {
+  text-align: right;
+}
+
+#matter {
+  margin-left: -25px;
+}
+/*
+About */
+.container {
+  display: flex;
+}
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}
+.boy {
+  /*width: 300px; */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 60px;
+  clip-path: circle();
+  border-radius: 72% 28% 64% 36% / 30% 74% 26% 70%;
+}
+
+.name {
+  /*text-align: center;*/
+  padding-right: auto;
+  /*display: flex;*/
+  margin-top: 75px;
+  color: aliceblue;
+  font-size: 24px;
+}
+@media all and (max-width: 550px) {
+  #b {
+    text-align: center;
+  }
+  #c {
+    text-align: center;
+  }
+}
+.matter {
+  color: aliceblue;
+  padding-right: auto;
+  font-size: 20px;
+  margin: 0px 10 px;
+  margin-left: -15px;
+}
+
+.container .btn-outline-primary {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.25s;
+  color: #3498db;
+  border: 2px solid #3498db;
+  text-decoration: none;
+}
+
+.container .btn-outline-primary:hover {
+  background: #1282cc;
+  color: aliceblue;
+}
+
+h3 {
+  color: aliceblue !important;
+  margin-left: 90px;
+  font-size: medium;
+  text-decoration: underline 0.15em rgba(54, 204, 250, 0.411);
+}
+
+#head {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+@media all and (max-width: 550px) {
+  #head {
+    scroll-margin-block: 225px;
+    margin-left: 36%;
+  }
+}
+h6 {
+  color: #3498db;
+  margin-left: 90px;
+  padding-top: 30px;
+  font-size: medium;
+}
+@media all and (max-width: 550px) {
+  #d {
+    align-items: center;
+    margin-left: -50px;
+  }
+}
+
+i {
+  color: aliceblue;
+  font-size: medium;
+  padding-left: 6px;
+}
+
+p {
+  color: rgb(68, 104, 136);
+  font-size: medium;
+  padding-left: 20px;
+  padding-top: 7px;
+}
+.fcontainer {
+  align-items: center;
+}
+.card {
+  border-radius: 20px;
+  border-color: #3498db;
+  margin-left: 5px;
+}
+
+h5 {
+  width: 25%;
+  text-align: center;
+}
+
+@media all and (max-width: 550px) {
+  #f {
+    padding-left: 100px;
+  }
+}
+
+.card-title {
+  text-align: center;
+  align-items: center;
+  margin-left: -25px;
+}
+#g {
+  padding-left: -10px;
+  padding-right: -10px;
+}
+.fa-check {
+  align-items: center;
+  color: #3498db;
+  align-self: start;
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
+/* Contact */
+.btn-outline-primary {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  transition: 0.25s;
+  color: #3498db;
+  border-radius: 30px solid #3498db;
+  text-decoration: none;
+}
+
+.btn-outline-primary:hover {
+  background: #3498db !important;
+  color: aliceblue;
+  border-radius: 30px;
+}
+
+#hero {
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+.header-img {
+  text-align: right;
+}
+
+/*Portfolio*/
+hr {
+  color: aliceblue;
+}
+
+h2 {
+  color: aliceblue;
+  padding-left: 30px;
+}
+
+@media all and (max-width: 500px) {
+  #a {
+    text-align: center;
+  }
+}
+hr.style1 {
+  border-top: 1px solid #8c8b8b;
+}
